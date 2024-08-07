@@ -138,12 +138,7 @@ header{
 .global{
     background-color: gray;
 }
-.global h2{
-    color: white;
-    }
-.global p{
-    color: black;
-}
+
 .global-content{
     margin: 2rem 0;
 }
