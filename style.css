@@ -118,42 +118,42 @@ header{
     cursor: pointer;
 }
 
-.design{
+.global{
     padding: 4.5rem 0;
 }
-.title{
+.recent{
     text-align: center;
     padding: 1rem 0;
 }
-.title h2{
+.recent h2{
     font-family: var(--Playfair);
     font-size: 2.4rem;
 }
-.title p{
+.recent p{
     text-transform: uppercase;
     padding: 0.6rem 0;
 }
-.design{
+.global{
     background-color: gray;
 }
-.design h2{
+.global h2{
     color: white;
     }
-.design p{
+.global p{
     color: black;
 }
-.design-content{
+.global-content{
     margin: 2rem 0;
 }
-.design-item{
+.global-item{
     cursor: pointer;
     margin: 1.5rem 0;
 }
-.design-img{
+.global-img{
     position: relative;
     overflow: hidden;
 }
-.design-img::after{
+.global-img::after{
     position: absolute;
     content: "";
     top: 0;
@@ -162,13 +162,13 @@ header{
     height: 100%;
     background: rgba(0, 0, 0, 0.3);
 }
-.design-img img{
+.global-img img{
     transition:  all 0.5s ease;
 }
-.design-item:hover img{
+.global-item:hover img{
     transform: scale(1.2);
 }
-.design-img span:last-of-type{
+.global-img span:last-of-type{
     position: absolute;
     z-index: 1;
     bottom: 10px;
@@ -178,7 +178,7 @@ header{
     color: #fff;
     background-color: #2b2b2b;
 }
-.design-title{
+.global-recent{
     padding: 1rem;
     font-size: 1.2rem;
     text-align: left;
@@ -188,20 +188,19 @@ header{
     text-align: inline-block;
    
 }
-.design-title h2{
+.global-recent h2{
     text-align: center;
     color: black;
     padding: 1rem 0;
     font-size: 1.7rem;
     font-weight: 500;  
 }
-.design-title p{
+.global-recent p{
     color: white;
     text-align: inline-block;
     margin: 5px;
-    font-size: 1.1rem;
 }
-.design-title a{
+.global-recent a{
     font-size: 1.1rem;
     text-decoration: none;
     display: inline-block;
@@ -211,7 +210,7 @@ header{
     transition: all 0.5s ease;
     margin:20px;
 }
-.design-title a:hover{
+.global-recent a:hover{
         background-color: #2b2b2b;
     }
 
@@ -262,7 +261,7 @@ header{
     margin: 5px;
     padding-bottom: 1.2rem;
     text-align: inline-block;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 .blog-text a{
     font-size: 1.1rem;
@@ -368,12 +367,12 @@ footer{
     .search-input{
         padding: 0.8rem 0;
     }
-    .design-content{
+    .global-content{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
-    .design-item{
+    .global-item{
         margin: 0;
     }
     .blog-content{
@@ -396,7 +395,7 @@ footer{
 }
 
 @media screen and (min-width: 1200px){
-    .design-content{
+    .global-content{
         grid-template-columns: repeat(3, 1fr);
     }
 }
