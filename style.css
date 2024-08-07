@@ -126,10 +126,12 @@ header{
     padding: 1rem 0;
 }
 .recent h2{
+    color: black;
     font-family: var(--Playfair);
     font-size: 2.4rem;
 }
 .recent p{
+    color: white;
     text-transform: uppercase;
     padding: 0.6rem 0;
 }
@@ -290,10 +292,14 @@ header{
     color: white;
 }
 .title h2{
-    color:white;
+    color:black;
+    font-family: var(--Playfair);
+    font-size: 2.4rem;
 }
 .title p{
     color: white;
+    text-transform: uppercase;
+    padding: 0.6rem 0;
 }
 
 footer{
